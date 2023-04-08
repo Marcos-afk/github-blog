@@ -1,36 +1,11 @@
 {
-  "transactions": [
-    {
-      "id": 1,
-      "description": "Desenvolvimento de site",
-      "type": "income",
-      "category": "Venda",
-      "price": 14000,
-      "createdAt": "2022-07-29T19:36:44.505Z"
-    },
-    {
-      "id": 2,
-      "description": "Hambúrguer",
-      "type": "outcome",
-      "category": "Alimentação",
-      "price": 50,
-      "createdAt": "2022-07-29T19:30:44.505Z"
-    },
-    {
-      "description": "Desenvolvimento de app",
-      "price": 500,
-      "category": "Programação",
-      "type": "income",
-      "createdAt": "2023-04-06T17:46:12.606Z",
-      "id": 3
-    },
-    {
-      "description": "Compra de equipamentos de informática",
-      "price": 5000,
-      "category": "Informática",
-      "type": "outcome",
-      "createdAt": "2023-04-06T17:58:15.149Z",
-      "id": 4
-    }
-  ]
+  "profile": {
+    "name": "Marcos André",
+    "github-url": "https://github.com/Marcos-afk/github-blog",
+    "avatar_url": "https://avatars.githubusercontent.com/u/72817154?v=4",
+    "followers": 64,
+    "github-username": "Marcos-afk",
+    "Company": "Brainny Smart Solutions",
+    "Description": "Desenvolvedor fullstack que atualmente está cursando ciências da computação, possuo habilidades em criação, manutenção e desenvolvimento de sistemas web e mobile."
+  }
 }
