@@ -2,11 +2,18 @@ import Arrow from '@assets/arrow-icon.svg';
 import Company from '@assets/company-icon.svg';
 import Followers from '@assets/followers-icon.svg';
 import Git from '@assets/git-icon.svg';
+import { RepositoriesContext } from '@contexts/Repositories';
+import { useContextSelector } from 'use-context-selector';
 
-import { Profile } from './mock';
 import * as S from './styles';
 
 export const ProfileCard = () => {
+  const { Profile } = useContextSelector(RepositoriesContext, (context) => {
+    return {
+      Profile: context.profile,
+    };
+  });
+
   return (
     <S.Container>
       <S.ProfileImage
@@ -21,7 +28,7 @@ export const ProfileCard = () => {
             <img src={Arrow} alt="Icon of arrow" />
           </a>
         </S.NameContainer>
-        <S.ProfileDescription>{Profile.Description}</S.ProfileDescription>
+        <S.ProfileDescription>{Profile.description}</S.ProfileDescription>
         <S.IconsContainer>
           <S.Icon>
             <img src={Git} alt="GitHub icon" />
@@ -29,7 +36,7 @@ export const ProfileCard = () => {
           </S.Icon>
           <S.Icon>
             <img src={Company} alt="Company icon" />
-            {Profile.Company}
+            {Profile.company}
           </S.Icon>
           <S.Icon>
             <img src={Followers} alt="Followers icon" />

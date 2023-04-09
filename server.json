@@ -1,11 +1,45 @@
 {
   "profile": {
     "name": "Marcos André",
-    "github-url": "https://github.com/Marcos-afk/github-blog",
+    "github_url": "https://github.com/Marcos-afk",
     "avatar_url": "https://avatars.githubusercontent.com/u/72817154?v=4",
-    "followers": 64,
-    "github-username": "Marcos-afk",
-    "Company": "Brainny Smart Solutions",
-    "Description": "Desenvolvedor fullstack que atualmente está cursando ciências da computação, possuo habilidades em criação, manutenção e desenvolvimento de sistemas web e mobile."
-  }
+    "followers": 20,
+    "github_username": "Marcos-afk",
+    "company": "Brainny Smart Solutions",
+    "description": "Desenvolvedor fullstack que atualmente está cursando ciências da computação, possuo habilidades em criação, manutenção e desenvolvimento de sistemas web e mobile."
+  },
+  "repositories": [
+    {
+      "id": 1,
+      "description": "Desafio 01 do conteúdo estudado nas aulas do Chapter I da trilha de React do Bootcamp Ignite da Rocketseat.",
+      "name": "Desafio 01 - Conceitos do ReactJS",
+      "url": "https://github.com/Marcos-afk/to-do-list-reactjs.git",
+      "comments": 0,
+      "created_at": "2023-03-29T18:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "description": "Desafio 02 do conteúdo estudado nas aulas do Chapter II da trilha de React Native do Bootcamp Ignite da Rocketseat.",
+      "name": "Desafio 02 - Trabalhando com o Styled Components no React Native",
+      "url": "https://github.com/Marcos-afk/daily-diet.git",
+      "comments": 0,
+      "created_at": "2023-02-29T18:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "description": "Microsserviço de envio de notificações desenvolvido durante o evento Ignite Lab da Rocketseat.",
+      "name": "Desenvolvendo um microsserviço de notificações com Node.js",
+      "url": "https://github.com/Marcos-afk/notifications-service.git",
+      "comments": 0,
+      "created_at": "2023-01-29T18:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "description": "Chat construído em NodeJs com o uso da biblioteca Socket.io.",
+      "name": "Chat em tempo real com NodeJs e Socket.io",
+      "url": "https://github.com/Marcos-afk/chat.git",
+      "comments": 0,
+      "created_at": "2023-01-29T18:00:00.000Z"
+    }
+  ]
 }

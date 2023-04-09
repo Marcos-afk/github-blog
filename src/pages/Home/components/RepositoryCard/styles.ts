@@ -1,6 +1,7 @@
+import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 
-export const Container = styled.div`
+export const Container = styled(NavLink)`
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
@@ -8,6 +9,7 @@ export const Container = styled.div`
   padding: 1rem;
   border-radius: 10px;
   border: 2px solid transparent;
+  text-decoration: none;
 
   p {
     font-size: 1rem;
