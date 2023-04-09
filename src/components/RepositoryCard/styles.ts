@@ -19,6 +19,8 @@ export const Container = styled.div`
 
   &:hover {
     border: 2px solid ${({ theme }) => theme['base-label']};
+    filter: brightness(0.9);
+    transition: filter 0.2s;
   }
 `;
 

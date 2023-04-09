@@ -14,6 +14,8 @@ export const Home = () => {
         <RepositoryCard />
         <RepositoryCard />
         <RepositoryCard />
+        <RepositoryCard />
+        <RepositoryCard />
       </S.Repositories>
     </S.Container>
   );
